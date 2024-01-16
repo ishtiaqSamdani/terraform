@@ -44,6 +44,23 @@
 5. **Destroy:**
    - `terraform destroy` tears down the infrastructure created by Terraform.
 
+6. **terraform fmt:**
+   - The `terraform fmt` command is used to automatically format your Terraform code according to a consistent style.
+   - It helps maintain a standardized and readable codebase by applying a canonical style to your configuration files.
+   - Example usage:
+     ```bash
+     terraform fmt
+     ```
+   - This command will format all the Terraform configuration files in the current directory.
+
+7. **terraform validate:**
+   - The `terraform validate` command is used to check the syntax and validate the configuration files for errors.
+   - It ensures that your Terraform code adheres to the correct syntax and structure without actually applying or modifying any infrastructure.
+   - Example usage:
+     ```bash
+     terraform validate
+     ```
+   - This command will check the validity of your Terraform configuration files.
 
 **Terraform Variables:**
 
